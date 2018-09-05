@@ -20,5 +20,5 @@ function check_mobile(){
 <?php } ?>
 
 <?php const MOBILE_HOSTNAME = 'm.beatuan.com';
-    echo MOBILE_HOSTNAME;
+
 ?>
