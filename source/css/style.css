@@ -1,0 +1,13 @@
+.clearfix:after {
+    content:'';
+    display: block;
+    clear:both;
+}
+
+nav {
+    background-color: #0f0;
+}
+
+nav ul li {
+    float:left;
+}

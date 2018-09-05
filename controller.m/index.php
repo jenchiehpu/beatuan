@@ -1,0 +1,1 @@
+<?php include_once('../common/device.php') ?>
