@@ -1,0 +1,50 @@
+header {
+    background-color: #000;
+    height: 50px;
+    position: relative;
+}
+.menu_switch {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left:10px;
+    top:25px;
+    transform: translateY(-50);
+}
+
+.menu_switch span {
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: relative;
+}
+
+.menu_switch span::before {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top: -10px;
+    left:0px;
+}
+.menu_switch span::after {
+    display: block;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    top:10px;
+    left:0px;
+}
+.m_nav {
+    position: absolute;
+    top:50px;
+    left:-100%;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: #000;
+}

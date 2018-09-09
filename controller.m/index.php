@@ -1,4 +1,4 @@
-<?php include_once('../common/device.php') ?>
+<?php include_once('device.php') ?>
 <?php
 
 $module = 'index';

@@ -19,6 +19,8 @@ function check_mobile(){
     <?php echo $_SERVER['REQUEST_URI']; ?>
 <?php } ?>
 
-<?php const MOBILE_HOSTNAME = 'm.beatuan.com';
+<?php
+
+const MOBILE_HOSTNAME = 'm.beatuan.com';
 
 ?>
