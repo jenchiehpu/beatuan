@@ -24,7 +24,7 @@ const browserSync = require('browser-sync').create();
 //     .pipe(browserSync.stream())
 // });
 gulp.task('js', function () {
-    return gulp.src(['/js/main.js'])
+    return gulp.src('js/**/*.js')
     .pipe(concat('all.js'))
     .pipe(uglify())
     .pipe(gulp.dest('../build/js'))
@@ -34,12 +34,12 @@ gulp.task('css', function () {
     var plugins = [
         autoprefixer({browsers:['last 1 version']})
     ];
-    return gulp.src(['css/reset.css','css/common.css', 'css/style.css'])
+    return gulp.src(['css/reset.css','css/common.css', 'css/**/*.css'])
     .pipe(plumber())
     .pipe(postcss(plugins))
     .pipe(concatCss('bundle.css'))
     .pipe(minifyCss())
-    .pipe(gulp.dest('../build/css/'))
+    .pipe(gulp.dest('../build/css/'));
     // .pipe(browserSync.stream())
 })
 

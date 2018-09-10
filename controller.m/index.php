@@ -2,7 +2,7 @@
 <?php
 
 $module = 'index';
-
+$title = '首頁';
 ?>
 
 

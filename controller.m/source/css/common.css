@@ -1,3 +1,16 @@
 a {
     text-decoration: none;
 }
+.fix {
+    position: fixed;
+    top:0;
+    left:0;
+}
+.clearfix {
+    content:'';
+    clear:both;
+}
+main {
+    margin: 0 20px;
+    padding-top: 20px;
+}

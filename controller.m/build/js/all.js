@@ -1,0 +1,1 @@
+!function(){var e=document.getElementById("slide_menu");if(e){var n=document.getElementById("slide_menu_trigger"),t=document.getElementById("slide_container");n.addEventListener("click",function(){e.classList.contains("menu_opened")?(e.classList.remove("menu_opened"),t.classList.remove("fixed")):(e.classList.add("menu_opened"),t.classList.add("fixed"))})}}();

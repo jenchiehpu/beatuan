@@ -1,0 +1,22 @@
+#slide_menu {
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: #ccc;
+    position: absolute;
+    top:50px;
+    left:-100%;
+    overflow: scroll;
+}
+#slide_menu.menu_opened {
+    left:0px;
+    transform: 10s;
+}
+#slide_menu li {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+#slide_menu li a {
+    color:#fff;
+}
