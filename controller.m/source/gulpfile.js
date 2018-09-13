@@ -34,7 +34,9 @@ gulp.task('css', function () {
     var plugins = [
         autoprefixer({browsers:['last 1 version']})
     ];
-    return gulp.src(['css/reset.css','css/common.css', 'css/**/*.css'])
+    return gulp.src(['css/reset.css', 'css/spectre-0.5.3/dist/spectre.min.css',
+    'css/spectre-0.5.3/dist/spectre-exp.min.css', 'css/spectre-0.5.3/dist/spectre-icons.min.css',
+    'css/beatuan.css', 'css/**/*.css'])
     .pipe(plumber())
     .pipe(postcss(plugins))
     .pipe(concatCss('bundle.css'))

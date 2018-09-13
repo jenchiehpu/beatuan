@@ -1,9 +1,12 @@
 <div class='layout_box'>
-    <a href="">WATCH</a>
+    <a href="">影片</a>
 </div>
 <div class='layout_box'>
-    <a href="">LISTEN</a>
+    <a href="/music.php"">音樂</a>
 </div>
 <div class='layout_box'>
-    <a href="">SHOP</a>
+    <a href="">藝人</a>
+</div>
+<div class='layout_box'>
+    <a href="">商店</a>
 </div>
