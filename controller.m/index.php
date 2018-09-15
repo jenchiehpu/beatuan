@@ -1,10 +1,6 @@
-<?php include_once('device.php') ?>
 <?php
-
+include_once('device.php');
+include('../common/common.php');
 $module = 'index';
 $title = '首頁';
-?>
-
-
-
-<?php include('../view.m/layout.php') ?>
+include('../view.m/layout.php');
