@@ -5,7 +5,7 @@
     <a href="/music.php"">音樂</a>
 </div>
 <div class='layout_box'>
-    <a href="">藝人</a>
+    <a href="/artists.php">藝人</a>
 </div>
 <div class='layout_box'>
     <a href="">商店</a>

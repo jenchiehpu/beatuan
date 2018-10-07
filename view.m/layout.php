@@ -7,5 +7,5 @@
     <?php include 'module/join_mail.php';?>
     <?php include 'module/footer.php';?>
 </div>
-<?php include 'module/slide_menu.php';?>
-<?php include 'module/after_body.php';?>
+<?php include('module/slide_menu.php'); ?>
+<?php include('module/after_body.php'); ?>

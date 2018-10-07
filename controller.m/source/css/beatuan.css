@@ -58,7 +58,7 @@ header {
 
 .toggle_label {
     display: block;
-    width: 28px;
+    width: 30px;
     height: 24px;
     position: absolute;
     left: 16px;
@@ -90,6 +90,7 @@ header {
     position: absolute;
     top: -10px;
     left: 0px;
+    transition: 0.15s ease-in;
 }
 
 .toggle_label span::after {
@@ -101,6 +102,21 @@ header {
     position: absolute;
     top: 10px;
     left: 0px;
+    transition: 0.15s ease-in;
+}
+
+.toggle_label.toggle_label_on span::before {
+    top:0px;
+    transform: rotate(45deg);
+}
+
+.toggle_label.toggle_label_on span::after {
+    top:0px;
+    transform: rotate(-45deg);
+}
+
+.toggle_label.toggle_label_on span {
+    background-color: transparent;
 }
 
 /* header */
@@ -137,31 +153,37 @@ footer {
     background-color: #fff;
 }
 
-footer h3{
+footer h3 {
     margin-top: 20px;
 }
+
 .footer_social_media {
     margin-top: 12px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .footer_social_media a {
-    display:block;
+    display: block;
 }
+
 .footer_desc {
     display: flex;
     justify-content: center;
 }
+
 .footer_desc span,
 .footer_desc a {
     box-sizing: border-box;
     width: 50vw;
 }
+
 .footer_desc span {
     text-align: right;
     padding-right: 6px;
 }
+
 .footer_desc a {
     padding-left: 6px;
 }

@@ -1,5 +1,6 @@
 <?php
 include 'device.php';
+include('../common/common.php');
 $module = 'music';
 $title = '音樂';
 $script_name = str_replace('.php', '', $_SERVER['SCRIPT_NAME']);
